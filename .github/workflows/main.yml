@@ -34,4 +34,5 @@ jobs:
           echo test, and deploy your project.
       - name: Run test go func
         run: |
+          cd $GITHUB_WORKSPACE
           go run main.go
