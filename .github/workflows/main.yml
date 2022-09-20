@@ -35,4 +35,4 @@ jobs:
       - name: Run test go func
         run: |
           cd $GITHUB_WORKSPACE
-          go run main.go
+          go run test.go
